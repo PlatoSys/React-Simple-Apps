@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  form {
+    width: 100%;
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.recipe {
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .naming {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      ul {
+        list-style-type: none;
+      }
+      .heart-shaping {
+        h1 {
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+        }
+      }
+    }
+
+    .image {
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+  .bottom {
+    .tutorial {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
