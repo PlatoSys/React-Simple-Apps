@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  .form {
+    display: flex;
+    justify-content: center;
+    form {
+      width: 100%;
+      div {
+        width: 100%;
+        display: flex;
+      }
+    }
+  }
+
+  .cities {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .city {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-width: 100px;
+    }
+  }
+}
